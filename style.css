@@ -1,0 +1,86 @@
+.main{
+    width: 100%;
+   
+}
+.menu a{
+    
+        color: white;
+        text-decoration: none;
+        padding-left: 10px;
+    }
+
+.navBar{
+    display: flex;
+    background-color: #78111f;
+    border-radius: 10px;
+    color: white;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu p{
+    margin-left: 10px;
+    color: grey;
+}
+
+.mainNews{
+    background-color:cadetblue;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+}
+
+.mainImage{
+    padding: 10px;
+}
+
+.mainText{
+    padding: 10px;
+    margin-left: 440px;
+    font-size: 18px;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.LatestNews{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.newsCardAll{
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsCard{
+    border: 1px gray solid;
+    width: 23%;
+    border-radius: 10px; 
+}
+
+.newsCardPicture img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.newsCardText{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.newsCardText button{
+    background-color:#78111f;
+    color: white;
+    margin-bottom: 10px;
+}
